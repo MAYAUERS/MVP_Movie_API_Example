@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity implements MovieListContract
         pbLoading.setVisibility(View.GONE);
     }
 
+    //meera13may add data to adapter
     @Override
     public void setDataToRecyclerview(List<Movie> movieListArray) {
 
