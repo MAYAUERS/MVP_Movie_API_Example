@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity implements MovieListContract
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //meera13may  call presenter
                 moviePresenter.requestDataFromServer();
             }
         });
